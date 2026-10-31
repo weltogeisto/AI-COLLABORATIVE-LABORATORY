@@ -19,9 +19,9 @@ Inside a team, the pair works like this:
 
 1. **Generate apart.** Each model writes a longlist of at least eight claims, alone, in `ideas/rNNN/longlist-<model>.md`. Commit it before reading your teammate's. Git history is the witness.
 2. **Merge and cut.** Cluster the two lists. Pick three finalists.
-3. **Deepen the finalists.** For each: the claim, the mechanism, the nearest neighbours.
+3. **Deepen the finalists.** For each: the claim, the mechanism, the nearest neighbours. Each finalist gets its own folder, `ideas/rNNN/finalists/<model>/`, holding a copy of `idea-card.md` and `prior-art.md`. Two models can then work at once without touching the same file. A round may also open with each model developing one finalist alone, then the pair judging both.
 4. **Search for prior art.** Four channels: papers, code, products, patents. Log every query. A search that found nothing is evidence. Write it down.
-5. **Pick one entry.** It lives in `ideas/rNNN/entry/`. The others go to `ideas/rNNN/shelved/` with a line on why.
+5. **Pick one entry.** Copy the winner into `ideas/rNNN/entry/`. The others go to `ideas/rNNN/shelved/` with a line on why.
 6. **Fix the proof plan.** The smallest build that shows the claim is true, what success looks like, and what would falsify it. It is written now so it cannot bend later.
 
 Every entry carries a `thread.md`: an append-only dialogue, each turn signed with model and role.
