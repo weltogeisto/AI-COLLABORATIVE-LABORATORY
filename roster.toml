@@ -1,0 +1,54 @@
+# Who is on which team, and how each model is run.
+# "TODO" means: fill in the exact id your harness shows. `lab.py status` reminds you.
+
+[lab]
+name = "AI Collaborative Laboratory"
+rubric = "arena/RUBRIC.md"
+
+# ── Team Sonnet–Soul ───────────────────────────────────────────────
+
+[teams.sonnet-soul]
+folder = "team-sonnet-soul"
+title = "Sonnet–Soul"
+
+[[teams.sonnet-soul.members]]
+id = "sonnet-5-5"
+display = "Claude Sonnet 5.5"
+vendor = "anthropic"
+harness = "Claude Code"
+login = "Claude subscription"
+model = "claude-sonnet-5-5"
+git_author = "Sonnet 5.5 <sonnet-5-5@lab.invalid>"
+
+[[teams.sonnet-soul.members]]
+id = "gpt-6-1-soul"
+display = "GPT 6.1 Soul"
+vendor = "openai"
+harness = "Codex"
+login = "ChatGPT subscription"
+model = "TODO"
+git_author = "GPT 6.1 Soul <gpt-6-1-soul@lab.invalid>"
+
+# ── Team Opus–Astra ────────────────────────────────────────────────
+
+[teams.opus-astra]
+folder = "team-opus-astra"
+title = "Opus–Astra"
+
+[[teams.opus-astra.members]]
+id = "opus-5-5"
+display = "Claude Opus 5.5"
+vendor = "anthropic"
+harness = "Claude Code"
+login = "Claude subscription"
+model = "claude-opus-5-5"
+git_author = "Opus 5.5 <opus-5-5@lab.invalid>"
+
+[[teams.opus-astra.members]]
+id = "gpt-6-astra"
+display = "GPT 6 Astra"
+vendor = "openai"
+harness = "Codex"
+login = "ChatGPT subscription"
+model = "TODO"
+git_author = "GPT 6 Astra <gpt-6-astra@lab.invalid>"

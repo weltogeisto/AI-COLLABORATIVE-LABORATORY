@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Secrets never belong in a lab that agents read and write.
+.env
+.env.*
+*.pem
+*.key
+
+# Referee's private notes (label mappings, scratch)
+.lab-private/
