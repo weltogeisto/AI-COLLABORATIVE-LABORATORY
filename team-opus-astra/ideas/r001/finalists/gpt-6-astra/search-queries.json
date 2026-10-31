@@ -1,0 +1,246 @@
+{
+  "search_date": "2026-10-31",
+  "method": "Connected web search, system2_search_query; query_url values are reproducible Google query links, not a claim that those pages were fetched.",
+  "queries": [
+    {
+      "channel": "papers",
+      "q": "\"rounded\" \"tables\" uncertainty ranking reconstruction",
+      "id": "Q01",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=%22rounded%22%20%22tables%22%20uncertainty%20ranking%20reconstruction",
+      "best_hit_url": "https://www150.statcan.gc.ca/n1/pub/11-522-x/2022001/article/00008-eng.pdf",
+      "best_hit_label": "Abado & Stefan",
+      "reading": "Partly: reconstructs compatible data; see S1."
+    },
+    {
+      "channel": "code",
+      "q": "site:github.com rounded percentages reconstruct counts",
+      "id": "Q02",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=site%3Agithub.com%20rounded%20percentages%20reconstruct%20counts",
+      "best_hit_url": "https://github.com/nmalkin/plot-likert/blob/master/plot_likert/plot_likert.py",
+      "best_hit_label": "plot-likert",
+      "reading": "No: inspected percentage conversion goes from counts to plots; S10."
+    },
+    {
+      "channel": "products",
+      "q": "rounding error checker percentages table GRIM SPRITE",
+      "id": "Q03",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=rounding%20error%20checker%20percentages%20table%20GRIM%20SPRITE",
+      "best_hit_url": "https://abc.tools/stats/grim-test/guide/",
+      "best_hit_label": "ABC Tools GRIM/GRIMMER",
+      "reading": "Partly: published-summary consistency; S3."
+    },
+    {
+      "channel": "patents",
+      "q": "site:patents.google.com \"rounded\" \"data\" \"reconstruction\"",
+      "id": "Q04",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=site%3Apatents.google.com%20%22rounded%22%20%22data%22%20%22reconstruction%22",
+      "best_hit_url": "https://patents.google.com/patent/EP2536141A1/en",
+      "best_hit_label": "EP2536141A1",
+      "reading": "No: image reconstruction; S9."
+    },
+    {
+      "channel": "papers",
+      "q": "\"query determinacy\" \"disclosure\" incomplete data",
+      "id": "Q05",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=%22query%20determinacy%22%20%22disclosure%22%20incomplete%20data",
+      "best_hit_url": "https://proceedings.kr.org/2020/12/kr2020-0012-benedikt-et-al.pdf",
+      "best_hit_label": "Benedikt et al.",
+      "reading": "Partly: query-supporting minimal information; primary followed through Q21; S7."
+    },
+    {
+      "channel": "papers",
+      "q": "\"decision\" \"reduct\" \"discernibility matrix\" minimal",
+      "id": "Q06",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=%22decision%22%20%22reduct%22%20%22discernibility%20matrix%22%20minimal",
+      "best_hit_url": "https://scispace.com/pdf/on-positive-correlation-promoting-reducts-199tw8gtaj.pdf",
+      "best_hit_label": "Henzel et al.",
+      "reading": "Partly: disclosure-selection mathematics is established; S4."
+    },
+    {
+      "channel": "papers",
+      "q": "\"rounded\" \"contingency tables\" bounds linear programming",
+      "id": "Q07",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=%22rounded%22%20%22contingency%20tables%22%20bounds%20linear%20programming",
+      "best_hit_url": "https://www.sciencedirect.com/science/article/abs/pii/S0377221715008358",
+      "best_hit_label": "Sage & Wright",
+      "reading": "Unknown: primary access returned 403; unresolved lead U1."
+    },
+    {
+      "channel": "patents",
+      "q": "site:patents.google.com \"uncertain\" \"query\" \"data\"",
+      "id": "Q08",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=site%3Apatents.google.com%20%22uncertain%22%20%22query%22%20%22data%22",
+      "best_hit_url": "https://patents.google.com/patent/CN106897375A/en",
+      "best_hit_label": "CN106897375A",
+      "reading": "Partly: query-directed cleaning-set optimization; S8."
+    },
+    {
+      "channel": "papers",
+      "q": "\"Obtaining cell counts for contingency tables from rounded conditional frequencies\" pdf",
+      "id": "Q09",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=%22Obtaining%20cell%20counts%20for%20contingency%20tables%20from%20rounded%20conditional%20frequencies%22%20pdf",
+      "best_hit_url": "https://www.sciencedirect.com/science/article/abs/pii/S0377221715008358",
+      "best_hit_label": "Sage & Wright",
+      "reading": "Unknown: full-text search did not resolve U1."
+    },
+    {
+      "channel": "code",
+      "q": "site:github.com \"decision\" \"reduct\" minimum",
+      "id": "Q10",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=site%3Agithub.com%20%22decision%22%20%22reduct%22%20minimum",
+      "best_hit_url": "https://github.com/hxm2023/agent-credit-auditor/blob/main/README.md",
+      "best_hit_label": "Agent-RL Credit Auditor",
+      "reading": "Partly: documents minimal-schema teaching asset; README read, implementation not audited; S11."
+    },
+    {
+      "channel": "products",
+      "q": "\"Vizier\" \"Mimir\" uncertainty data cleaning",
+      "id": "Q11",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=%22Vizier%22%20%22Mimir%22%20uncertainty%20data%20cleaning",
+      "best_hit_url": "https://odin.cse.buffalo.edu/research/mimir/",
+      "best_hit_label": "Mimir / Vizier",
+      "reading": "Partly: uncertainty-aware analysis and cleaning guidance; S6."
+    },
+    {
+      "channel": "patents",
+      "q": "site:patents.google.com \"rounded\" \"table\" \"disclosure\"",
+      "id": "Q12",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=site%3Apatents.google.com%20%22rounded%22%20%22table%22%20%22disclosure%22",
+      "best_hit_url": null,
+      "best_hit_label": "none qualifying",
+      "reading": "No qualifying result in returned set; unrelated table-shape/piece-of-furniture hits were not pursued."
+    },
+    {
+      "channel": "papers",
+      "q": "\"Obtaining cell counts\" \"Sage\" \"Wright\" filetype:pdf",
+      "id": "Q13",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=%22Obtaining%20cell%20counts%22%20%22Sage%22%20%22Wright%22%20filetype%3Apdf",
+      "best_hit_url": "https://andrewjsage.github.io/cv.html",
+      "best_hit_label": "Sage's own CV",
+      "reading": "Unknown: verifies publication/project existence only, not the method; U1."
+    },
+    {
+      "channel": "papers",
+      "q": "\"On Positive-Correlation-Promoting Reducts\" pdf",
+      "id": "Q14",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=%22On%20Positive-Correlation-Promoting%20Reducts%22%20pdf",
+      "best_hit_url": "https://scispace.com/pdf/on-positive-correlation-promoting-reducts-199tw8gtaj.pdf",
+      "best_hit_label": "Henzel et al.",
+      "reading": "Partly: full paper read after PMC browser challenge; S4."
+    },
+    {
+      "channel": "code",
+      "q": "github scrutiny grim.R",
+      "id": "Q15",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=github%20scrutiny%20grim.R",
+      "best_hit_url": "https://github.com/lhdjung/scrutiny/blob/main/R/grim.R",
+      "best_hit_label": "scrutiny",
+      "reading": "Partly: source reached via maintainer documentation; S2."
+    },
+    {
+      "channel": "papers",
+      "q": "\"uncertainty\" \"minimum\" \"queries\" \"data cleaning\"",
+      "id": "Q16",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=%22uncertainty%22%20%22minimum%22%20%22queries%22%20%22data%20cleaning%22",
+      "best_hit_url": "https://www.vldb.org/pvldb/vol12/p2408-sintos.pdf",
+      "best_hit_label": "Sintos et al.",
+      "reading": "Partly: relevant lead followed with exact-title Q17 and primary PDF; S5."
+    },
+    {
+      "channel": "papers",
+      "q": "\"Selecting Data to Clean for Fact Checking: Minimizing Uncertainty vs. Maximizing Surprise\"",
+      "id": "Q17",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=%22Selecting%20Data%20to%20Clean%20for%20Fact%20Checking%3A%20Minimizing%20Uncertainty%20vs.%20Maximizing%20Surprise%22",
+      "best_hit_url": "https://www.vldb.org/pvldb/vol12/p2408-sintos.pdf",
+      "best_hit_label": "Sintos et al.",
+      "reading": "Partly: close generalization, including zero-variance specialization; S5."
+    },
+    {
+      "channel": "papers",
+      "q": "\"minimum disclosure\" \"rounded\" tables",
+      "id": "Q18",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=%22minimum%20disclosure%22%20%22rounded%22%20tables",
+      "best_hit_url": null,
+      "best_hit_label": "none qualifying",
+      "reading": "No relevant technical implementation found in the returned set; not evidence of worldwide absence."
+    },
+    {
+      "channel": "products",
+      "q": "\"rounded percentages\" \"comparison\" \"tool\"",
+      "id": "Q19",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=%22rounded%20percentages%22%20%22comparison%22%20%22tool%22",
+      "best_hit_url": null,
+      "best_hit_label": "none qualifying",
+      "reading": "No matching audit workflow found; general calculators/reporting guidance dominated."
+    },
+    {
+      "channel": "patents",
+      "q": "site:patents.google.com \"statistical\" \"rounding\" \"query\"",
+      "id": "Q20",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=site%3Apatents.google.com%20%22statistical%22%20%22rounding%22%20%22query%22",
+      "best_hit_url": "https://patents.google.com/patent/WO2009139650A1/en",
+      "best_hit_label": "WO2009139650A1",
+      "reading": "Partly: controlled-granularity publication, not the inspected audit contract; S12."
+    },
+    {
+      "channel": "papers",
+      "q": "\"Balancing Expressiveness and Inexpressiveness in View Design\"",
+      "id": "Q21",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=%22Balancing%20Expressiveness%20and%20Inexpressiveness%20in%20View%20Design%22",
+      "best_hit_url": "https://proceedings.kr.org/2020/12/kr2020-0012-benedikt-et-al.pdf",
+      "best_hit_label": "Benedikt et al.",
+      "reading": "Partly: primary conference paper read; S7."
+    },
+    {
+      "channel": "papers",
+      "q": "\"Calculation of cell bounds for contingency tables from rounded conditional frequencies\"",
+      "id": "Q22",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=%22Calculation%20of%20cell%20bounds%20for%20contingency%20tables%20from%20rounded%20conditional%20frequencies%22",
+      "best_hit_url": "https://andrewjsage.github.io/cv.html",
+      "best_hit_label": "Sage's own CV",
+      "reading": "Unknown: master's-project title confirmed, manuscript not found; U1 remains open."
+    },
+    {
+      "channel": "code",
+      "q": "site:github.com \"rounding\" \"certificate\" \"counts\"",
+      "id": "Q23",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=site%3Agithub.com%20%22rounding%22%20%22certificate%22%20%22counts%22",
+      "best_hit_url": "https://github.com/srikantlose/Penumbra/blob/master/docs/CERTIFICATE_FORMAT.md",
+      "best_hit_label": "Penumbra certificate format",
+      "reading": "No full match: independent verification is an existing engineering pattern in another domain; S13."
+    },
+    {
+      "channel": "products",
+      "q": "\"rounded\" \"tables\" \"minimum disclosure\"",
+      "id": "Q24",
+      "date": "2026-10-31",
+      "query_url": "https://www.google.com/search?q=%22rounded%22%20%22tables%22%20%22minimum%20disclosure%22",
+      "best_hit_url": null,
+      "best_hit_label": "none qualifying",
+      "reading": "No relevant product located in the returned set; regulatory disclosure results were not pursued."
+    }
+  ]
+}
