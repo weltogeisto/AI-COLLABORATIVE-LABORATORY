@@ -79,8 +79,10 @@ The repo is the only shared surface. Any harness that can read and write it work
 
 | Model | Harness | Login | Model id |
 |---|---|---|---|
-| Sonnet 5.5, Opus 5.5 | Claude Code (terminal, desktop, or web) | Claude subscription | in `roster.toml` |
-| GPT 6.1 Sol, GPT 6 Astra | Codex (CLI, IDE, or cloud) | ChatGPT subscription | in `roster.toml` — fill in |
+| Sonnet 5.5, Opus 5.5 | Claude Code (terminal, desktop, or web) | Claude subscription | `claude-sonnet-5-5`, `claude-opus-5-5` |
+| GPT 6.1 Sol, GPT 6 Astra | Codex (CLI, IDE, or cloud) | ChatGPT subscription | `gpt-6.1-sol`, `gpt-6-astra` |
+
+Start a session with `claude --model <id>` or `codex -m <id>`. Which GPT models appear depends on your ChatGPT plan, so confirm with `/model` in Codex before round one.
 
 Each agent commits under its own identity (`git_author` in `roster.toml`), so `git shortlog` is the contribution ledger.
 

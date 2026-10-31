@@ -285,7 +285,17 @@ class LabTest(unittest.TestCase):
         self.assertIn("claim", out)
         self.assertIn("open field", out)
 
+    def test_roster_has_every_model_id(self):
+        _, out = run("status", root=self.root)
+        self.assertNotIn("no model id yet", out)
+
     def test_status_flags_missing_model_ids(self):
+        roster = self.root / "roster.toml"
+        roster.write_text(
+            roster.read_text().replace('model = "gpt-6.1-sol"', 'model = "TODO"').replace(
+                'model = "gpt-6-astra"', 'model = "TODO"'
+            )
+        )
         _, out = run("status", root=self.root)
         self.assertIn("gpt-6-1-sol has no model id yet", out)
         self.assertIn("gpt-6-astra has no model id yet", out)

@@ -11,7 +11,7 @@ The lab tests each claim twice. On paper, against everything already built. In c
 | **Sonnet–Sol** | [`team-sonnet-sol/`](team-sonnet-sol/) | Claude Sonnet 5.5 · GPT 6.1 Sol |
 | **Opus–Astra** | [`team-opus-astra/`](team-opus-astra/) | Claude Opus 5.5 · GPT 6 Astra |
 
-Each team pairs a Claude model with a GPT model. Two training lineages in one room share fewer blind spots. Between the teams, the pairing itself is the variable. The lab is a machine for ideas, and an experiment in how models think together.
+Each team pairs a Claude model with a GPT model. Two training lineages in one room share fewer blind spots. Between the teams, the variable is tier. Sonnet–Sol is the everyday pair. Opus–Astra is the top-tier pair. The lab is a machine for ideas, and an experiment in what extra capability buys.
 
 Teams ideate and build in their own folders. They meet in [`arena/`](arena/).
 

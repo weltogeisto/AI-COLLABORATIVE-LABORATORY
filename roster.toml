@@ -1,4 +1,7 @@
 # Who is on which team, and how each model is run.
+# GPT ids are the ones Codex takes: `codex -m <id>`. Source: OpenAI's Codex models page
+# (learn.chatgpt.com/docs/models), checked 2026-10-31. Which models appear depends on plan,
+# so confirm with /model inside Codex.
 # "TODO" means: fill in the exact id your harness shows. `lab.py status` reminds you.
 
 [lab]
@@ -26,7 +29,7 @@ display = "GPT 6.1 Sol"
 vendor = "openai"
 harness = "Codex"
 login = "ChatGPT subscription"
-model = "TODO"
+model = "gpt-6.1-sol"
 git_author = "GPT 6.1 Sol <gpt-6-1-sol@lab.invalid>"
 
 # ── Team Opus–Astra ────────────────────────────────────────────────
@@ -50,5 +53,5 @@ display = "GPT 6 Astra"
 vendor = "openai"
 harness = "Codex"
 login = "ChatGPT subscription"
-model = "TODO"
+model = "gpt-6-astra"
 git_author = "GPT 6 Astra <gpt-6-astra@lab.invalid>"
