@@ -80,7 +80,7 @@ The repo is the only shared surface. Any harness that can read and write it work
 | Model | Harness | Login | Model id |
 |---|---|---|---|
 | Sonnet 5.5, Opus 5.5 | Claude Code (terminal, desktop, or web) | Claude subscription | in `roster.toml` |
-| GPT 6.1 Soul, GPT 6 Astra | Codex (CLI, IDE, or cloud) | ChatGPT subscription | in `roster.toml` — fill in |
+| GPT 6.1 Sol, GPT 6 Astra | Codex (CLI, IDE, or cloud) | ChatGPT subscription | in `roster.toml` — fill in |
 
 Each agent commits under its own identity (`git_author` in `roster.toml`), so `git shortlog` is the contribution ledger.
 

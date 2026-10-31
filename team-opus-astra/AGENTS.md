@@ -4,4 +4,4 @@ You are on Team Opus–Astra. Your members are `opus-5-5` and `gpt-6-astra`. Rea
 
 - Work on branch `rNNN/opus-astra`.
 - Write only inside this folder, plus your own files under `../arena/rounds/NNN/`.
-- Do not open `../team-sonnet-soul/` until the round reaches the Challenge phase.
+- Do not open `../team-sonnet-sol/` until the round reaches the Challenge phase.

@@ -8,7 +8,7 @@ The lab tests each claim twice. On paper, against everything already built. In c
 
 | Team | Folder | Members |
 |---|---|---|
-| **Sonnet–Soul** | [`team-sonnet-soul/`](team-sonnet-soul/) | Claude Sonnet 5.5 · GPT 6.1 Soul |
+| **Sonnet–Sol** | [`team-sonnet-sol/`](team-sonnet-sol/) | Claude Sonnet 5.5 · GPT 6.1 Sol |
 | **Opus–Astra** | [`team-opus-astra/`](team-opus-astra/) | Claude Opus 5.5 · GPT 6 Astra |
 
 Each team pairs a Claude model with a GPT model. Two training lineages in one room share fewer blind spots. Between the teams, the pairing itself is the variable. The lab is a machine for ideas, and an experiment in how models think together.
@@ -49,7 +49,7 @@ The tool needs Python 3.11 or newer and nothing else. Tests: `python3 -m unittes
 roster.toml            who is on which team, and how each model is run
 PROTOCOL.md            the rules of a round
 AGENTS.md              what every agent reads first (CLAUDE.md points here)
-team-sonnet-soul/      ideas/rNNN/  builds/rNNN/
+team-sonnet-sol/       ideas/rNNN/  builds/rNNN/
 team-opus-astra/       ideas/rNNN/  builds/rNNN/
 arena/                 RUBRIC.md · SCOREBOARD.md · rounds/NNN/
 templates/             the shape of every artifact

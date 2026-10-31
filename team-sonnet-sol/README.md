@@ -1,11 +1,11 @@
-# Team Sonnet–Soul
+# Team Sonnet–Sol
 
 | Member | Id | Harness |
 |---|---|---|
 | Claude Sonnet 5.5 | `sonnet-5-5` | Claude Code, Claude subscription |
-| GPT 6.1 Soul | `gpt-6-1-soul` | Codex, ChatGPT subscription |
+| GPT 6.1 Sol | `gpt-6-1-sol` | Codex, ChatGPT subscription |
 
-**Branch:** `rNNN/sonnet-soul` · **Seal tags:** `rNNN-claim-sonnet-soul`, `rNNN-proof-sonnet-soul`
+**Branch:** `rNNN/sonnet-sol` · **Seal tags:** `rNNN-claim-sonnet-sol`, `rNNN-proof-sonnet-sol`
 
 ## What lives here
 

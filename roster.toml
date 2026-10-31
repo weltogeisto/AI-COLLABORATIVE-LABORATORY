@@ -5,13 +5,13 @@
 name = "AI Collaborative Laboratory"
 rubric = "arena/RUBRIC.md"
 
-# ── Team Sonnet–Soul ───────────────────────────────────────────────
+# ── Team Sonnet–Sol ───────────────────────────────────────────────
 
-[teams.sonnet-soul]
-folder = "team-sonnet-soul"
-title = "Sonnet–Soul"
+[teams.sonnet-sol]
+folder = "team-sonnet-sol"
+title = "Sonnet–Sol"
 
-[[teams.sonnet-soul.members]]
+[[teams.sonnet-sol.members]]
 id = "sonnet-5-5"
 display = "Claude Sonnet 5.5"
 vendor = "anthropic"
@@ -20,14 +20,14 @@ login = "Claude subscription"
 model = "claude-sonnet-5-5"
 git_author = "Sonnet 5.5 <sonnet-5-5@lab.invalid>"
 
-[[teams.sonnet-soul.members]]
-id = "gpt-6-1-soul"
-display = "GPT 6.1 Soul"
+[[teams.sonnet-sol.members]]
+id = "gpt-6-1-sol"
+display = "GPT 6.1 Sol"
 vendor = "openai"
 harness = "Codex"
 login = "ChatGPT subscription"
 model = "TODO"
-git_author = "GPT 6.1 Soul <gpt-6-1-soul@lab.invalid>"
+git_author = "GPT 6.1 Sol <gpt-6-1-sol@lab.invalid>"
 
 # ── Team Opus–Astra ────────────────────────────────────────────────
 

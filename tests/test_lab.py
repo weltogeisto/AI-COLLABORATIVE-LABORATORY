@@ -16,7 +16,7 @@ sys.path.insert(0, str(REPO / "tools"))
 import lab  # noqa: E402
 
 TEAMS = {
-    "sonnet-soul": ("team-sonnet-soul", ["sonnet-5-5", "gpt-6-1-soul"]),
+    "sonnet-sol": ("team-sonnet-sol", ["sonnet-5-5", "gpt-6-1-sol"]),
     "opus-astra": ("team-opus-astra", ["opus-5-5", "gpt-6-astra"]),
 }
 
@@ -151,7 +151,7 @@ class LabTest(unittest.TestCase):
                 self.assertTrue((base / "entry" / name).exists())
             self.assertTrue((self.root / folder / "builds" / "r001" / "verify.sh").exists())
         rd = self.root / "arena" / "rounds" / "001"
-        for name in ("challenges/sonnet-soul.md", "reviews/opus-astra.md", "verdict.md", "retro.md"):
+        for name in ("challenges/sonnet-sol.md", "reviews/opus-astra.md", "verdict.md", "retro.md"):
             self.assertTrue((rd / name).exists(), name)
 
     def test_rounds_number_up(self):
@@ -182,7 +182,7 @@ class LabTest(unittest.TestCase):
     def test_short_longlist_fails(self):
         n = self.new_round()
         self.fill_claim(n)
-        path = self.root / "team-sonnet-soul" / "ideas" / "r001" / "longlist-sonnet-5-5.md"
+        path = self.root / "team-sonnet-sol" / "ideas" / "r001" / "longlist-sonnet-5-5.md"
         path.write_text("# Longlist\n\n1. one\n2. two\n")
         self.assertTrue(any("need at least 8" in e for e in self.lab.check(n)))
 
@@ -203,7 +203,7 @@ class LabTest(unittest.TestCase):
     def test_thread_needs_both_members_and_an_attack(self):
         n = self.new_round()
         self.fill_claim(n)
-        path = self.root / "team-sonnet-soul" / "ideas" / "r001" / "entry" / "thread.md"
+        path = self.root / "team-sonnet-sol" / "ideas" / "r001" / "entry" / "thread.md"
         path.write_text("# Thread\n\n### 1 · sonnet-5-5 · Proposer\n\nAll good.\n")
         errs = self.lab.check(n)
         self.assertTrue(any("both team members" in e for e in errs))
@@ -212,7 +212,7 @@ class LabTest(unittest.TestCase):
     def test_thread_rejects_impostors(self):
         n = self.new_round()
         self.fill_claim(n)
-        path = self.root / "team-sonnet-soul" / "ideas" / "r001" / "entry" / "thread.md"
+        path = self.root / "team-sonnet-sol" / "ideas" / "r001" / "entry" / "thread.md"
         path.write_text(thread("sonnet-5-5", "opus-5-5"))
         self.assertTrue(any("non-members" in e for e in self.lab.check(n)))
 
@@ -287,7 +287,7 @@ class LabTest(unittest.TestCase):
 
     def test_status_flags_missing_model_ids(self):
         _, out = run("status", root=self.root)
-        self.assertIn("gpt-6-1-soul has no model id yet", out)
+        self.assertIn("gpt-6-1-sol has no model id yet", out)
         self.assertIn("gpt-6-astra has no model id yet", out)
 
     def test_check_without_rounds_is_a_clean_error(self):

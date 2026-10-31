@@ -8,7 +8,7 @@ Labels revealed: X = {{team}}, Y = {{team}}.
 
 | Entry | G1 | G2 | G3 | G4 | Eligible to win? |
 |---|---|---|---|---|---|
-| {{Sonnet–Soul}} | {{...}} | {{...}} | {{...}} | {{...}} | {{yes / no}} |
+| {{Sonnet–Sol}} | {{...}} | {{...}} | {{...}} | {{...}} | {{yes / no}} |
 | {{Opus–Astra}} | {{...}} | {{...}} | {{...}} | {{...}} | {{yes / no}} |
 
 ## Official scores
@@ -17,7 +17,7 @@ Mean of the two teams' scores. See `reviews/`.
 
 | Entry | Idea | Build | Challenge points | Total |
 |---|---|---|---|---|
-| {{Sonnet–Soul}} | {{...}} | {{...}} | {{...}} | {{...}} |
+| {{Sonnet–Sol}} | {{...}} | {{...}} | {{...}} | {{...}} |
 | {{Opus–Astra}} | {{...}} | {{...}} | {{...}} | {{...}} |
 
 ## Prizes
