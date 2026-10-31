@@ -1,0 +1,14 @@
+number = 1
+field = "open field"
+mode = "race"
+phase = "claim"
+created = "2026-10-31"
+rubric_sha256 = "98776c419fb40611c8030be58fce458600110e339f8bb925c1a2aed62a4186c0"
+
+# Subscriptions meter usage in windows, not dollars.
+# Budget is in sessions per model, per phase.
+[budget]
+claim_sessions = 4
+challenge_sessions = 1
+proof_sessions = 6
+verdict_sessions = 1
